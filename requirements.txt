@@ -4,3 +4,4 @@ fastapi
 starlette
 pandas
 networkx
+openpyxl
