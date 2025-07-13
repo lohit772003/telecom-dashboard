@@ -254,5 +254,8 @@ def suggest(dev_type, status):
     return 'No action'
 
 # --- Main ---
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+ #   app.run(debug=True)
+
+
+dash_app = app  # expose for FastAPI
