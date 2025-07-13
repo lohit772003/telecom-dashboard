@@ -5,8 +5,8 @@ import dash_cytoscape as cyto
 import os
 
 # --- Load Data ---
-devices = pd.read_csv("Devices.csv")
-edges = pd.read_csv("DeviceHasInterface.csv")
+devices = pd.read_csv("app/Devices.csv")
+edges = pd.read_csv("app/DeviceHasInterface.csv")
 edges['from_key'] = edges['_from'].str.split('/').str[-1]
 edges['to_key'] = edges['_to'].str.split('/').str[-1]
 
